@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>The Travelling Wizard Compendium</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+<body>
+
+  <H1 class="title"> The Travelling Wizard Compendium </H1>
+  <div class="intro">
+    <p> A compilation of spells collected from all places I travelled in my journey. My mind is forgetting with the
+      years passing by so this is an aid for my old self, for you, dear student, and for the sake of preserving this
+      art. </p>
+    <form id="search-spells"> 
+      <input type="text" placeholder="Search..">
+      <button type="button" class="sort">Switch order</button>
+      <select class = "schools-choice">
+        <OPTION class ="choice" onclick="filter('all')">All</OPTION>
+        <OPTION class ="choice" onclick="filter('Abjuration')">Abjuration</OPTION>
+        <OPTION class ="choice" onclick="filter('Conjuration')">Conjuration</OPTION>
+        <OPTION class ="choice" onclick="filter('Divination')">Divination</OPTION>
+        <OPTION class ="choice" onclick="filter('Enchantment')">Enchantment</OPTION>
+        <OPTION class ="choice" onclick="filter('Evocation')">Evocation</OPTION>
+        <OPTION class ="choice" onclick="filter('Illusion')">Illusion</OPTION>
+        <OPTION class ="choice" onclick="filter('Necromancy')">Necromancy</OPTION>
+        <OPTION class ="choice" onclick="filter('Transmutation')">Transmutation</OPTION>
+      </select>
+    </form>
+  </div>
+
+
+
+  
+  <div class="grid">
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

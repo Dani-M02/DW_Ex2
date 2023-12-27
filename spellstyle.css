@@ -1,0 +1,137 @@
+@media (max-width: 1920px) {
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url('img/paper3.png');
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        color: #3c2f1b;
+        overflow: hidden;
+    }
+
+    .title {
+        position: absolute;
+        padding: 2%;
+        background-color: #ffd0a25f;
+        font-size: 12pt;
+        width: 25vw;
+        height: 95vh;
+        top: 0;
+
+    }
+
+    #back {
+        border: 2px solid #645240;
+        height: 5vh;
+        width: auto;
+        background-color: #997b5d5d;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        width: 5vw;
+        bottom: 5vh;
+        left: 2vw;
+    }
+
+    .spelltext {
+        position: relative;
+        display: block;
+        padding: 2%;
+        background-color: #ffd0a25f;
+        left: 29vw;
+        top: 0;
+        width: 68vw;
+        height: 95vh;
+    }
+
+    .spelltext img {
+        opacity: 75%;
+        position: absolute;
+        width: 60vw;
+        bottom: -62vh;
+        right: -15vw;
+    }
+
+    .desc {
+        padding-bottom: 1.5%;
+    }
+
+    .texto{
+        height: 12vh;
+        overflow: auto;
+    }
+
+    .stats {
+        border: 2px solid #9e8367;
+        width: 20vw;
+        padding: 2%;
+        background-image: url('img/paperrr.jpg');
+        background-size: cover;
+        box-shadow: 7px 7px 2px 1px #9e8367;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+ 
+    .title{
+        position: static;
+        width: 95vw;
+        height: 110vh;
+        padding-top: 5%;
+        background-color: #ffd0a25f;
+        font-size:12pt;
+        margin: 0;
+        text-align: center;
+       
+      }
+
+
+    #back{
+        position:absolute;
+        border: 2px solid #645240;
+        height: 5vh;
+        width: 20vw;
+        background-color: #997b5d5d;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        bottom: 3vh;
+        left: 40vw;
+    }
+
+    .spelltext {
+        position: absolute;
+        display: block;
+        padding: 1%;
+        background-color: transparent;
+        top: 12vh;
+        width: 100vw;
+        height: 75vh;
+        left: 0;
+    }
+
+    .desc {
+        position: relative;
+        left:5vw;
+        width: 85vw;
+    }
+
+    .texto{
+        height: 15vh;
+        overflow: auto;
+    }
+
+
+    .stats {
+        position: relative;
+        left: 5vw;
+        border: 2px solid #9e8367;
+        width: 80vw;
+        padding: 3%;
+        background-image: url('img/paperrr.jpg');
+        background-size: cover;
+        box-shadow: 7px 7px 2px 1px #9e8367;
+    }
+
+}
