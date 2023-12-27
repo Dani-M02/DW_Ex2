@@ -15,7 +15,7 @@
         position: absolute;
         padding: 2%;
         background-color: #ffd0a25f;
-        font-size: 12pt;
+        font-size: 18pt;
         width: 25vw;
         height: 95vh;
         top: 0;
@@ -45,26 +45,21 @@
         height: 95vh;
     }
 
-    .spelltext img {
-        opacity: 75%;
-        position: absolute;
-        width: 60vw;
-        bottom: -62vh;
-        right: -15vw;
-    }
-
     .desc {
         padding-bottom: 1.5%;
     }
 
-    .texto{
-        height: 12vh;
-        overflow: auto;
+    .info{
+        width: 65vw;
     }
 
+
     .stats {
+        position: absolute;
+        left: -25vw;
+        bottom:10vw;
         border: 2px solid #9e8367;
-        width: 20vw;
+        width: 15vw;
         padding: 2%;
         background-image: url('img/paperrr.jpg');
         background-size: cover;
@@ -120,6 +115,11 @@
     .texto{
         height: 15vh;
         overflow: auto;
+    }
+
+    
+    .info{
+        width: 90vw;
     }
 
 
